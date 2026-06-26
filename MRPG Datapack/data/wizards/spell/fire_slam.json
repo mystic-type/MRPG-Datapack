@@ -1,0 +1,116 @@
+{
+  "school": "spell_power:fire",
+  "range": 0.0,
+  "range_mechanic": "MELEE",
+  "tier": 21,
+  "learn": {},
+  "active": {
+    "cast": {
+      "duration": 0.9,
+      "animation": {
+        "id": "spell_engine:weapon_slam_jump"
+      },
+      "animation_pitch": false,
+      "start_sound": {
+        "id": "alexscaves:acid_idle"
+      }
+    }
+  },
+  "release": {
+    "animation": {
+      "id": "spell_engine:weapon_slam_end"
+    }
+  },
+  "target": {
+    "type": "AIM",
+    "aim": {
+      "reposition_vertically": -1.5
+    }
+  },
+  "deliver": {
+    "delay": 2
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.8
+        }
+      }
+    }
+  ],
+  "area_impact": {
+    "radius": 4.0,
+    "particles": [
+      {
+        "particle_id": "cataclysm:flare_jet",
+        "origin": "FEET",
+        "shape": "CIRCLE",
+        "count": 60.0,
+        "min_speed": 1.5,
+        "max_speed": 4.0,
+        "pre_spawn_travel": 1.0
+      },
+      {
+        "particle_id": "flame",
+        "origin": "FEET",
+        "shape": "SPHERE",
+        "count": 80.0,
+        "min_speed": 0.2,
+        "max_speed": 0.5,
+        "pre_spawn_travel": 1.5
+      },
+      {
+        "particle_id": "spell_engine:smoke_medium",
+        "origin": "FEET",
+        "shape": "CIRCLE",
+        "count": 25.0,
+        "min_speed": 0.2,
+        "max_speed": 0.2,
+        "pre_spawn_travel": 1.0
+      },
+      {
+        "particle_id": "spell_engine:smoke_medium",
+        "origin": "FEET",
+        "shape": "CIRCLE",
+        "count": 25.0,
+        "min_speed": 0.3,
+        "max_speed": 0.3,
+        "pre_spawn_travel": 2.0
+      },
+      {
+        "particle_id": "spell_engine:smoke_medium",
+        "origin": "FEET",
+        "shape": "CIRCLE",
+        "count": 25.0,
+        "min_speed": 0.4,
+        "max_speed": 0.4,
+        "pre_spawn_travel": 4.0
+      },
+      {
+        "particle_id": "cataclysm:flare_explode",
+        "origin": "FEET",
+        "shape": "SPHERE",
+        "count": 40.0,
+        "min_speed": 0.05,
+        "max_speed": 0.15,
+        "pre_spawn_travel": 2.0
+      }
+    ],
+    "sound": {
+      "id": "minecraft:entity.dragon_fireball.explode",
+      "volume": 1.5
+    }
+  },
+  "cost": {
+    "exhaust": 0.3,
+    "cooldown": {
+      "attempt_duration": 0.5,
+      "duration": 25.0
+    },
+    "item": {
+      "id": "runes:fire_stone"
+    }
+  }
+}

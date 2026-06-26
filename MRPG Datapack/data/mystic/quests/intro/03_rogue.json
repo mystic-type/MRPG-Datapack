@@ -1,0 +1,26 @@
+{
+  "id": "mystic:intro/03_rogue",
+  "title": "Path of the Rogue",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "rogues:iron_dagger" },
+  "description": "Fast, cunning, and always one step ahead — you've chosen the path of the **Rogue**!\n\nTwo blades are better than one. Strike fast, stay mobile, and never let your enemies get the upper hand.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_rouge"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "rogues:iron_dagger",
+      "count": 2
+    }
+  ]
+}

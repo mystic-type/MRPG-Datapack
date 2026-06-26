@@ -1,0 +1,26 @@
+{
+  "id": "mystic:intro/03_priest",
+  "title": "Path of the Priest",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "runes:healing_stone" },
+  "description": "Devoted, resilient, and a lifeline to those around you — you've chosen the path of the **Priest**!\n\nYour healing stones will fuel your divine spells. Keep your allies alive and yourself standing — the party depends on you!",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_priest"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "runes:healing_stone",
+      "count": 64
+    }
+  ]
+}

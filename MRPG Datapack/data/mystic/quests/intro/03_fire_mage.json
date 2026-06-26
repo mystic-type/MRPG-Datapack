@@ -1,0 +1,26 @@
+{
+  "id": "mystic:intro/03_fire_mage",
+  "title": "Path of the Fire Mage",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "runes:fire_stone" },
+  "description": "Explosive, aggressive, and impossible to ignore — you've chosen the path of the **Fire Mage**!\n\nYour fire stones will fuel your most powerful spells. Burn everything in your path and leave nothing but ash behind.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_fire"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "runes:fire_stone",
+      "count": 64
+    }
+  ]
+}

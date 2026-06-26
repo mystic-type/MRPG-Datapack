@@ -1,0 +1,20 @@
+{
+  "id": "mystic:intro/02_spell_binding_table",
+  "title": "The Spell Binding Table",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "spell_engine:spell_binding" },
+  "description": "The **Spell Binding Table** is the heart of your progression — every class uses it!\n\nWhether you're a **Warrior**, **Rogue**, **Archer**, or **Paladin**, or perhaps a **Fire**, **Frost**, or **Arcane Mage** — even a **Priest** — your class tome is bound here.\n\nCraft a Spell Binding Table and use it to bind your first tome. Spell scrolls can be found by exploring the world and taking down bosses — so get out there and fight!\n\nOnce you've bound your first tome, a reward awaits you.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/01_welcome"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "minecraft:story/smelt_iron"
+    }
+  ],
+  "rewards": []
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " e ",
+    "exe",
+    " b "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:glass"
+    },
+    "x": {
+      "item": "relics_rpgs:lesser_proc_crit_damage"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:medium_proc_fire_power",
+    "count": 1
+  }
+}

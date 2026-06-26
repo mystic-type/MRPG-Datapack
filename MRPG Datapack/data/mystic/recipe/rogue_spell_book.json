@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:iron_ingot"},
+    {"item": "minecraft:fermented_spider_eye"}
+  ],
+  "result": {
+    "id": "spell_engine:spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {"pool": "rogues:spell_book/rogue"},
+      "spell_engine:item_model": "rogues:item/spell_book/rogue",
+      "minecraft:item_name": "{\"translate\":\"item.rogues.spell_book/rogue\"}"
+    }
+  }
+}

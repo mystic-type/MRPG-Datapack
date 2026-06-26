@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "se ",
+    "es ",
+    "   "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:feather"
+    },
+    "s": {
+      "item": "minecraft:blue_orchid"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:lesser_roll",
+    "count": 1
+  }
+}

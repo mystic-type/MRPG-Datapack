@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "wizards:arcane_missile",
+      "required": false
+    },
+    {
+      "id": "wizards:arcane_beam",
+      "required": false
+    },
+    {
+      "id": "wizards:arcane_blink",
+      "required": false
+    },
+    {
+      "id": "wizards:arcane_meteor",
+      "required": false
+    },
+    {
+      "id": "wizards:arcane_vortex",
+      "required": false
+    }
+  ]
+}

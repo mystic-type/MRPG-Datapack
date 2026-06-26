@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:gold_ingot"},
+    {"item": "minecraft:amethyst_shard"}
+  ],
+  "result": {
+    "id": "spell_engine:spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {"pool": "paladins:spell_book/priest"},
+      "spell_engine:item_model": "paladins:item/spell_book/priest",
+      "minecraft:item_name": "{\"translate\":\"item.paladins.spell_book/priest\"}"
+    }
+  }
+}

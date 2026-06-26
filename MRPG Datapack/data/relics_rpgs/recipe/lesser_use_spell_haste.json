@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " ex",
+    "ese",
+    " e "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:copper_nugget"
+    },
+    "s": {
+      "item": "minecraft:clock"
+    },
+    "x": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "ingredients": [
+    {
+      "item": "enderscape:nebulite_shards"
+    },
+    {
+      "item": "enderscape:nebulite_shards"
+    },
+    {
+      "item": "enderscape:nebulite_shards"
+    },
+    {
+      "item": "enderscape:nebulite_shards"
+    }
+  ],
+  "result": {
+    "id": "relics_rpgs:lesser_use_spell_haste",
+    "count": 1
+  }
+}

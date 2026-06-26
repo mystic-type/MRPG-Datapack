@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "wizards:frost_nova",
+      "required": false
+    },
+    {
+      "id": "wizards:frost_shield",
+      "required": false
+    },
+    {
+      "id": "wizards:frost_blizzard",
+      "required": false
+    },
+    {
+      "id": "wizards:frost_breath",
+      "required": false
+    },
+    {
+      "id": "wizards:frost_whirlwind",
+      "required": false
+    }
+  ]
+}

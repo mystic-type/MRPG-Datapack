@@ -1,0 +1,119 @@
+{
+  "school": "spell_power:frost",
+  "range": 10.0,
+  "tier": 22,
+  "learn": {},
+  "active": {
+    "cast": {
+      "duration": 4.0,
+      "channel_ticks": 25,
+      "animation": {
+        "id": "spell_engine:two_handed_channeling"
+      },
+      "start_sound": {
+        "id": "wizards:fire_breath_start"
+      },
+      "sound": {
+        "id": "wizards:frost_blizzard_casting",
+        "randomness": 0.1
+      },
+      "particles": [
+        {
+          "particle_id": "spell_engine:snowflake",
+          "origin": "LAUNCH_POINT",
+          "shape": "CONE",
+          "rotation": "LOOK",
+          "count": 8.0,
+          "min_speed": 1.0,
+          "angle": 30.0
+        },
+        {
+          "particle_id": "spell_engine:magic_frost_burst",
+          "origin": "LAUNCH_POINT",
+          "shape": "CONE",
+          "rotation": "LOOK",
+          "count": 4.0,
+          "min_speed": 1.0,
+          "angle": 30.0,
+          "color_rgba": 3439329279
+        },
+        {
+          "particle_id": "spell_engine:frost_shard",
+          "origin": "LAUNCH_POINT",
+          "shape": "CONE",
+          "rotation": "LOOK",
+          "count": 4.0,
+          "min_speed": 1.0,
+          "angle": 30.0
+        }
+      ]
+    }
+  },
+  "release": {
+    "sound": {
+      "id": "wizards:frost_nova_release"
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "distance_dropoff": "SQUARED",
+      "angle_degrees": 40.0
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.0,
+          "knockback": 0.5
+        }
+      },
+      "particles": [
+        {
+          "particle_id": "spell_engine:magic_frost_burst",
+          "origin": "CENTER",
+          "shape": "CIRCLE",
+          "count": 3.0,
+          "min_speed": 0.5,
+          "max_speed": 3.0,
+          "color_rgba": 3439329279
+        }
+      ],
+      "sound": {
+        "id": "spell_engine:frost_nova_impact"
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "wizards:frozen",
+          "duration": 4.0,
+          "amplifier": 1
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:slowness",
+          "duration": 6.0,
+          "amplifier": 2
+        }
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.2,
+    "cooldown": {
+      "duration": 20.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "runes:frost_stone"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " x ",
+    "eee",
+    " b "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:glow_berries"
+    },
+    "x": {
+      "item": "minecraft:ghast_tear"
+    },
+    "b": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:lesser_use_health",
+    "count": 1
+  }
+}

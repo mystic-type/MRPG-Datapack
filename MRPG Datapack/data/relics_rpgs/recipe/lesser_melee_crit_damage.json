@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "  e",
+    "es ",
+    "ee "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:bone"
+    },
+    "s": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:lesser_melee_crit_damage",
+    "count": 1
+  }
+}

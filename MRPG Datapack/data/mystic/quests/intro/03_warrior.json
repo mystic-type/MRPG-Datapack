@@ -1,0 +1,26 @@
+{
+  "id": "mystic:intro/03_warrior",
+  "title": "Path of the Warrior",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "rogues:iron_double_axe" },
+  "description": "Strong, relentless, and built to take a beating — you've chosen the path of the **Warrior**!\n\nYour double axe hits hard and hits often. Get in close, hold the line, and let nothing stand in your way.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_warrior"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "rogues:iron_double_axe",
+      "count": 1
+    }
+  ]
+}

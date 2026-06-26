@@ -1,0 +1,26 @@
+{
+  "id": "mystic:intro/03_archer",
+  "title": "Path of the Archer",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "minecraft:arrow" },
+  "description": "Swift, precise, and deadly from a distance — you've chosen the path of the **Archer**!\n\nYour arrows will be your best friend out there. Use these to get started, and keep an eye out for more powerful ammunition as you progress through the tiers.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_archer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "minecraft:arrow",
+      "count": 64
+    }
+  ]
+}

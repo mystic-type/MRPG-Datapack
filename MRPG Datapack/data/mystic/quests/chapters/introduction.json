@@ -1,0 +1,6 @@
+{
+  "id": "mystic:chapters/introduction",
+  "title": "Introduction",
+  "icon": { "item": "minecraft:book" },
+  "order": 0
+}

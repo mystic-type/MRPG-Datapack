@@ -1,0 +1,155 @@
+{
+  "school": "spell_power:frost",
+  "range": 0.0,
+  "range_mechanic": "MELEE",
+  "tier": 23,
+  "learn": {},
+  "active": {
+    "cast": {
+      "duration": 8.0,
+      "channel_ticks": 40,
+      "animation": {
+        "id": "spell_engine:two_handed_spin_static"
+      },
+      "animation_pitch": false,
+      "animation_spin": -12.0,
+      "movement_speed": 1.6,
+      "sound": {
+        "id": "spell_engine:whirlwind",
+        "randomness": 0.0
+      },
+      "particles": [
+        {
+          "particle_id": "spell_engine:snowflake",
+          "origin": "FEET",
+          "shape": "WIDE_PIPE",
+          "count": 3.0,
+          "min_speed": 0.05,
+          "max_speed": 0.2
+        },
+        {
+          "particle_id": "spell_engine:frost_shard",
+          "origin": "FEET",
+          "shape": "WIDE_PIPE",
+          "count": 1.5,
+          "min_speed": 0.1,
+          "max_speed": 0.3
+        }
+      ]
+    }
+  },
+  "release": {
+    "particles": [
+      {
+        "particle_id": "spell_engine:snowflake",
+        "origin": "FEET",
+        "shape": "CIRCLE",
+        "count": 40.0,
+        "min_speed": 0.2,
+        "max_speed": 0.6,
+        "pre_spawn_travel": 1.0
+      },
+      {
+        "particle_id": "spell_engine:frost_shard",
+        "origin": "FEET",
+        "shape": "CIRCLE",
+        "count": 20.0,
+        "min_speed": 0.15,
+        "max_speed": 0.4,
+        "pre_spawn_travel": 0.8
+      }
+    ],
+    "sound": {
+      "id": "minecraft:entity.player.hurt_freeze"
+    }
+  },
+  "target": {
+    "type": "AREA",
+    "area": {
+      "vertical_range_multiplier": 0.25
+    }
+  },
+  "impacts": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "spell_power_coefficient": 1.6,
+          "knockback": 1.5
+        }
+      },
+      "particles": [
+        {
+          "particle_id": "spell_engine:snowflake",
+          "origin": "CENTER",
+          "shape": "SPHERE",
+          "count": 20.0,
+          "min_speed": 0.2,
+          "max_speed": 0.6
+        },
+        {
+          "particle_id": "spell_engine:frost_shard",
+          "origin": "CENTER",
+          "shape": "SPHERE",
+          "count": 10.0,
+          "min_speed": 0.3,
+          "max_speed": 0.8
+        }
+      ]
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:slowness",
+          "amplifier": 2,
+          "duration": 1.0
+        }
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:speed",
+          "amplifier": 1,
+          "duration": 1.5
+        },
+        "apply_to_caster": true
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "wizards:frost_shield",
+          "amplifier": 0,
+          "duration": 1.5
+        },
+        "apply_to_caster": true
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "skill_tree_rpgs:frost_shield_speed",
+          "amplifier": 0,
+          "duration": 1.5
+        },
+        "apply_to_caster": true
+      }
+    }
+  ],
+  "cost": {
+    "exhaust": 0.8,
+    "cooldown": {
+      "duration": 45.0,
+      "proportional": true
+    },
+    "item": {
+      "id": "runes:frost_stone",
+      "count": 3
+    }
+  }
+}

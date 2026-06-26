@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:gunpowder"},
+    {"item": "minecraft:fire_charge"}
+  ],
+  "result": {
+    "id": "spell_engine:spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {"pool": "wizards:spell_book/fire"},
+      "spell_engine:item_model": "wizards:item/spell_book/fire",
+      "minecraft:item_name": "{\"translate\":\"item.wizards.spell_book/fire\"}"
+    }
+  }
+}

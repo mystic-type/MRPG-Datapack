@@ -1,0 +1,26 @@
+{
+  "id": "mystic:intro/03_arcane_mage",
+  "title": "Path of the Arcane Mage",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "runes:arcane_stone" },
+  "description": "Mysterious, versatile, and brimming with raw magical energy — you've chosen the path of the **Arcane Mage**!\n\nArcane magic bends the rules of reality itself. Master its chaotic power and nothing in this world will be beyond your reach.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_arcane"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "runes:arcane_stone",
+      "count": 64
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mystic:intro/03_paladin",
+  "title": "Path of the Paladin",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "paladins:iron_mace" },
+  "description": "Holy warrior, steadfast protector — you've chosen the path of the **Paladin**!\n\nYou walk the line between martial might and divine power. Your mace will keep foes at bay, and your healing stones will keep you standing when things get tough.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_paladin"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "paladins:iron_mace",
+      "count": 1
+    },
+    {
+      "type": "item_grant",
+      "item": "runes:healing_stone",
+      "count": 32
+    }
+  ]
+}

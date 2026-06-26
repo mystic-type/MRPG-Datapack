@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " --",
+    "-0-",
+    "p- "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "-": {
+      "item": "minecraft:gold_nugget"
+    },
+    "p": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "enderscape:mirror",
+    "count": 1
+  }
+}

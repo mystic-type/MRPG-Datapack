@@ -1,0 +1,26 @@
+{
+  "id": "mystic:intro/03_frost_mage",
+  "title": "Path of the Frost Mage",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "runes:frost_stone" },
+  "description": "Calculated, controlled, and chillingly effective — you've chosen the path of the **Frost Mage**!\n\nSlow your enemies, shatter their defenses, and command the battlefield with an iron grip of ice.",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "mystic:intro/02_spell_binding_table"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "advancement",
+      "advancement": "rpg_series:path_choose_frost"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "item_grant",
+      "item": "runes:frost_stone",
+      "count": 64
+    }
+  ]
+}

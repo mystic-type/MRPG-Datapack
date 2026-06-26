@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "wizards:fire_breath",
+      "required": false
+    },
+    {
+      "id": "wizards:fire_meteor",
+      "required": false
+    },
+    {
+      "id": "wizards:fire_wall",
+      "required": false
+    },
+    {
+      "id": "wizards:fire_lane",
+      "required": false
+    },
+    {
+      "id": "wizards:fire_slam",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:arrow"},
+    {"item": "minecraft:feather"}
+  ],
+  "result": {
+    "id": "spell_engine:spell_book",
+    "count": 1,
+    "components": {
+      "spell_engine:spell_container": {"pool": "archers:spell_book/archer"},
+      "spell_engine:item_model": "archers:item/spell_book/archer",
+      "minecraft:item_name": "{\"translate\":\"item.archers.spell_book/archer\"}"
+    }
+  }
+}

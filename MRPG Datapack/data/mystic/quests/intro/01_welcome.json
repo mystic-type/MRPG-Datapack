@@ -1,0 +1,15 @@
+{
+  "id": "mystic:intro/01_welcome",
+  "title": "Welcome to Mystic RPG!",
+  "chapter": "mystic:chapters/introduction",
+  "icon": { "item": "minecraft:book" },
+  "description": "Welcome, adventurer! This world is full of danger, discovery, and power waiting to be claimed.\n\nNo matter your playstyle — whether you prefer to sling spells or swing a blade — your journey to greatness starts the same way: at the **Spell Binding Table**.\n\nRead on to learn how to get started!",
+  "requirements": [
+    {
+      "type": "advancement",
+      "advancement": "minecraft:story/root"
+    }
+  ],
+  "objectives": [],
+  "rewards": []
+}

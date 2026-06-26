@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " e ",
+    "sds",
+    " e "
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:gold_nugget"
+    },
+    "s": {
+      "item": "minecraft:gold_block"
+    },
+    "d": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "relics_rpgs:medium_proc_ranged_damage",
+    "count": 1
+  }
+}
