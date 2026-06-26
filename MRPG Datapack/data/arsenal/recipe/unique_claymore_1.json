@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " x ",
+    "ixi",
+    " c "
+  ],
+  "key": {
+    "x": {
+      "item": "alexscaves:tectonic_shard"
+    },
+    "c": {
+      "item": "alexscaves:heavy_bone"
+    },
+    "i": {
+      "item": "alexscaves:depth_charge"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_claymore_1",
+    "count": 1
+  }
+}

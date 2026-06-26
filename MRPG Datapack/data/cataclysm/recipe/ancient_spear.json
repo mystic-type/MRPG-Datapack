@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " as",
+    " aa",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "s": {
+      "item": "cataclysm:sandstorm_in_a_bottle"
+    }
+  },
+  "result": {
+    "id": "cataclysm:ancient_spear",
+    "count": 1
+  }
+}

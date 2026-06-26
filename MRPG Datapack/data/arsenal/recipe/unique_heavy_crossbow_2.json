@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "xzx",
+    "sds",
+    " d "
+  ],
+  "key": {
+    "x": {
+      "item": "alexscaves:uranium"
+    },
+    "d": {
+      "item": "cataclysm:black_steel_ingot"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "z": {
+      "item": "cataclysm:kobolediator_skull"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_heavy_crossbow_2",
+    "count": 1
+  }
+}

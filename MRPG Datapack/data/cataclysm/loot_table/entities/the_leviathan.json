@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "name":"spell_scroll",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spell_engine:spell_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+                "spell_engine:spell_container": {
+                  "spell_ids": ["wizards:arcane_vortex"]
+                },
+                "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}",
+                "minecraft:rarity": "epic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "claw",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:tidal_claws"
+
+        }
+      ]
+    },
+    {
+      "name": "gaze",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:greater_perk_spell_stun"
+
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:black_eye"
+        }
+      ]
+    },
+    {
+      "name": "horn",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:abyssal_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsenal:unique_hammer_1"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arsenal:unique_mace_1"
+        }
+      ]
+    },
+    {
+      "name": "disc",
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.1,
+          "enchanted_chance": 0.1,
+          "enchantment": "minecraft:looting"
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_the_leviathan",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

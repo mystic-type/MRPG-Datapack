@@ -1,0 +1,158 @@
+{
+  "pools": [
+    {
+      "name": "music_disc",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_netherite_monstrosity"
+        }
+      ]
+    },
+    {
+      "name":"spell_scroll",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spell_engine:spell_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "spell_engine:item_model": "wizards:item/spell_scroll/fire",
+                "spell_engine:spell_container": {
+                  "spell_ids": ["wizards:fire_slam"]
+                },
+                "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/fire\"}",
+                "minecraft:rarity": "epic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lava_power_cell",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:lava_power_cell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 30,
+                "max": 40
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "netherite_scrap",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nether_eye",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:nether_eye"
+        }
+      ]
+    },
+    {
+      "name": "unique_hammer",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arsenal:unique_hammer_2"
+        }
+      ]
+    },
+    {
+      "name": "monstrous_horn",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:monstrous_horn"
+        }
+      ]
+    },
+    {
+      "name": "relic_attack_damage",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:medium_proc_attack_damage"
+        }
+      ]
+    },
+    {
+      "name": "book_critical_chance",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "spell_power:critical_chance": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "book_critical_strike_chance",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "critical_strike:chance": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

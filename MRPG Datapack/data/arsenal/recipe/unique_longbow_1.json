@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "xzs",
+    "z s",
+    "xzs"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:blaze_rod"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "z": {
+      "item": "alexscaves:amber_curiosity"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_longbow_1",
+    "count": 1
+  }
+}

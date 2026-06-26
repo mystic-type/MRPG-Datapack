@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " bz",
+    "bxb",
+    "ab "
+  ],
+  "key": {
+    "b": {
+      "item": "alexscaves:marine_snow"
+    },
+    "x": {
+      "item": "minecraft:breeze_rod"
+    },
+    "z": {
+      "item": "minecraft:nether_star"
+    },
+    "a": {
+      "item": "alexscaves:pearl"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_staff_damage_sw",
+    "count": 1
+  }
+}

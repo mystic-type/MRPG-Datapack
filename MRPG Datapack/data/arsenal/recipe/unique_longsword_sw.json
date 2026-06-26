@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " ex",
+    " xe",
+    "ab "
+  ],
+  "key": {
+    "e": {
+      "item": "alexscaves:ping_pong_sponge"
+    },
+    "x": {
+      "item": "cataclysm:black_steel_ingot"
+    },
+    "b": {
+      "item": "alexscaves:bioluminesscence"
+    },
+    "a": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_longsword_sw",
+    "count": 1
+  }
+}

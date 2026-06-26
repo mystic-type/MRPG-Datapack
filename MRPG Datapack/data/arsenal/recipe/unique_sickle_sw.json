@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "iia",
+    " sa",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "alexscaves:scarlet_neodymium_ingot"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_sickle_sw",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " sd",
+    "zxs",
+    "xz "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "d": {
+      "item": "alexscaves:heart_of_iron"
+    },
+    "z": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_staff_heal_2",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "asd",
+    "cxs",
+    "xca"
+  ],
+  "key": {
+    "x": {
+      "item": "alexscaves:scarlet_neodymium_ingot"
+    },
+    "c": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "a": {
+      "item": "minecraft:blaze_powder"
+    },
+    "s": {
+      "item": "alexscaves:tectonic_shard"
+    },
+    "d": {
+      "item": "alexscaves:radiant_essence"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_staff_damage_3",
+    "count": 1
+  }
+}

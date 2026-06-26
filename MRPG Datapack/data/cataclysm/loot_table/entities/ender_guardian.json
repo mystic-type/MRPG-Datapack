@@ -1,0 +1,150 @@
+{
+  "pools": [
+    {
+      "name": "void_crystal_shard",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enderscape:nebulite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shulker_shell",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mirror",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enderscape:mirror",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "music_disc",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_ender_guardian"
+        }
+      ]
+    },
+    {
+      "name": "evil_eye",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:guardian_eye"
+        }
+      ]
+    },
+    {
+      "name": "unique_shield",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arsenal:unique_shield_1"
+        }
+      ]
+    },
+    {
+      "name": "void_core",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:void_core"
+        }
+      ]
+    },
+    {
+      "name": "relic_spell_haste",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "relics_rpgs:medium_proc_spell_haste"
+        }
+      ]
+    },
+    {
+      "name": "book_critical_damage",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "spell_power:critical_damage": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "book_critical_strike_damage",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "critical_strike:damage": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

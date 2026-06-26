@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " x ",
+    "cxc",
+    " i "
+  ],
+  "key": {
+    "x": {
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    "c": {
+      "item": "alexscaves:heavy_bone"
+    },
+    "i": {
+      "item": "alexscaves:ominous_catalyst"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_claymore_2",
+    "count": 1
+  }
+}

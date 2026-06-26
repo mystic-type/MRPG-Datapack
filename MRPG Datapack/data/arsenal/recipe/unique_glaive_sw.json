@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " zd",
+    "zxs",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "alexscaves:uranium_rod"
+    },
+    "d": {
+      "item": "alexscaves:fissile_core"
+    },
+    "z": {
+      "item": "alexscaves:charred_remnant"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_glaive_sw",
+    "count": 1
+  }
+}

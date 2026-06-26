@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    " bz",
+    " xb",
+    "b  "
+  ],
+  "key": {
+    "b": {
+      "item": "alexscaves:uranium"
+    },
+    "x": {
+      "item": "arsenal:unique_double_axe_2"
+    },
+    "z": {
+      "item": "alexscaves:occult_gem"
+    }
+  },
+  "result": {
+    "id": "arsenal:unique_staff_damage_5",
+    "count": 1
+  }
+}

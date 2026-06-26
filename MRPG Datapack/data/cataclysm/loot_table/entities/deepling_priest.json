@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "name": "deepling_priest",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:athame",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:lacrima",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

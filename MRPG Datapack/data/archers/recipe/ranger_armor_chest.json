@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "R": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "R R",
+    "LSL",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "archers:ranger_armor_chest"
+  }
+}
