@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "name": "bottle",
+      "rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:wither_eye"
+        }
+      ]
+    },
+    {
+      "rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star"
+        }
+      ]
+    },
+    {
+      "name": "skull",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull"
+        }
+      ]
+    },
+    {
+      "name": "staff",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arsenal:unique_staff_damage_6"
+        }
+      ]
+    },
+    {
+      "name": "disc",
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.1,
+          "enchanted_chance": 0.1,
+          "enchantment": "minecraft:looting"
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "arsenal:unique_double_axe_2",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

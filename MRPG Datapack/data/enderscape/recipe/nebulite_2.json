@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "eee",
+    "sds",
+    "s s"
+  ],
+  "key": {
+    "e": {
+      "item": "enderscape:nebulite_shards"
+    },
+    "s": {
+      "item": "mowziesmobs:glowing_jelly"
+    },
+    "d": {
+      "item": "minecraft:chainmail_leggings"
+    }
+  },
+  "ingredients": [
+    {
+      "item": "enderscape:nebulite_shards"
+    },
+    {
+      "item": "enderscape:nebulite_shards"
+    },
+    {
+      "item": "enderscape:nebulite_shards"
+    },
+    {
+      "item": "enderscape:nebulite_shards"
+    }
+  ],
+  "result": {
+    "id": "enderscape:nebulite",
+    "count": 1
+  }
+}

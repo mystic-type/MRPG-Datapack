@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "relics_rpgs:medium_proc_spell_power"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "relics_rpgs:medium_proc_spell_haste"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mutantmonsters:endersoul_hand"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "endrem:witch_eye"
+				}
+			]
+		},
+		{
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "spell_engine:spell_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "spell_engine:item_model": "wizards:item/spell_scroll/arcane",
+                "spell_engine:spell_container": {
+                  "spell_ids": ["wizards:arcane_blink"]
+                },
+                "minecraft:item_name": "{\"translate\":\"item.wizards.spell_scroll/arcane\"}",
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+	]
+}

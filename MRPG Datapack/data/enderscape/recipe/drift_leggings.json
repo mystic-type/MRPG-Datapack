@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "eee",
+    "sds",
+    "s s"
+  ],
+  "key": {
+    "e": {
+      "item": "enderscape:nebulite_shards"
+    },
+    "s": {
+      "item": "mowziesmobs:glowing_jelly"
+    },
+    "d": {
+      "item": "minecraft:chainmail_leggings"
+    }
+  },
+  "result": {
+    "id": "enderscape:drift_leggings",
+    "count": 1
+  }
+}
